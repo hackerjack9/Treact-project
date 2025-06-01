@@ -185,14 +185,7 @@ header .button {
     font-weight: 500px;
 }
 
-h1, h2 {
-    font-size: larger;
-    font-weight: bolder;
-}
-
-
-
-.img__wrapper1 {
+.img__customers {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -201,7 +194,7 @@ h1, h2 {
    
 }
 
-.img__wrapper2 {
+.header__img--wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
