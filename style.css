@@ -88,7 +88,7 @@ p {
   line-height: 1.625;
 }
 
-.btn {
+.button {
   background-color: #6415ff;
   padding: 12px 32px;
   border: none;
@@ -99,7 +99,7 @@ p {
   transition: all 300ms;
 }
 
-.btn:hover {
+.button:hover {
   background-color: rgba(80, 17, 204);
 }
 
@@ -358,7 +358,7 @@ header .row {
   border-color: rgba(100, 21, 255);
 }
 
-.header__email--btn {
+.header__email--button {
   z-index: 2;
   margin: 8px;
   height: calc(100% - 16px);
@@ -372,7 +372,7 @@ header .row {
   transition: all 300ms;
 }
 
-.header__email--btn:hover {
+.header__email--button:hover {
   background-color: rgba(60, 13, 153);
 }
 
@@ -620,11 +620,6 @@ VALUES ↓
 .values__list {
   display: flex;
 }
-
-/* .value {
-    width: 50%;
-} */
-
 
 .value__img {
   width: 500px;
