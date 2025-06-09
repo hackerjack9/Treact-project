@@ -282,7 +282,7 @@ section {
 header .row {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .header__description {
@@ -343,7 +343,7 @@ header .row {
   border-color: rgba(100, 21, 255);
 }
 
-.header__email--button {
+.header__email--btn {
   z-index: 2;
   margin: 8px;
   height: calc(100% - 16px);
@@ -1000,53 +1000,49 @@ main {
 
 .start__title {
   color: #f7fafc;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.5;
   z-index: 2;
 }
 
-.start__button--button1, .start__button--button2 {
-  padding: 20px 40px;
-  border-radius: 500px;
-  font-weight: 700;
-  font-size: 16px;
-  color: white;
-  line-height: 1.5;
-  letter-spacing: 0.025em;
-  margin: 1px;
-  z-index: 2;
+.start__button {
+    padding: 20px 40px;
+    border-radius: 500px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #f7fafc;
+    line-height: 1.5;
+    letter-spacing: 0.025em;
+    margin: 1px;
+    z-index: 2;
 }
 
-.start__button--button2 {
-background-color:rgb(100, 21, 255);
-border: 1px solid white;
-}
-
-.start__button--button1 {
+.start__button:nth-child(1) {
     background: #f56565;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     margin-right: 32px;
     transition: all 300ms;
 }
 
-.start__button--button1:hover {
+.start__button:hover:nth-child(1) {
     background-color: rgba(229,62,62);
 }
 
-.start__button--button2 {
+.start__button:nth-child(2) {
     border: 1px solid rgb(160, 174, 192);
     transition: all 300ms;
+    background-color: #6415ff;
 }
 
-.start__button--button2:hover {
-    background-color: rgba(247,250,252);
+.start__button:hover:nth-child(2) {
+    background-color: white;
     color: rgba(100,21,255);
 }
 
 #start .row {
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 
 /* 
